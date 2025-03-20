@@ -1,7 +1,7 @@
 # Q-AER
 
 ## Overview
-This project is a Q&A chatbot built with Streamlit and LangChain, designed to answer questions about CSV file provided using a knowledge base stored in a FAISS vector database.
+This project is a Q&A chatbot built with Streamlit and LangChain, designed to answer questions about a pdf file provided using a knowledge base stored in a FAISS vector database.
 
 ## Getting Started
 Follow these steps to set up the project on your local machine.
@@ -39,7 +39,7 @@ python main.py
 
 
 ## Key Features
-✅ **Upload CSV files** to create a knowledge base.  
+✅ **Upload pdf files** to create a knowledge base.  
 ✅ **Generate vector embeddings** using Hugging Face models.  
 ✅ **Retrieve relevant information** using a similarity-based search.  
 ✅ **Answer user queries** with a structured response.  
